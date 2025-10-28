@@ -1,0 +1,4 @@
+1.结构体的解析不是很全。
+  - ibex_core.cs_registers_i.dummy_instr_en is connected to: ibex_core.cs_registers_i.cpuctrlsts_part_wdata_raw
+2.parameter被识别为了信号
+3.test6出现问题，一个没有被赋值的变量mid_wire却出现了多余的赋值信息
